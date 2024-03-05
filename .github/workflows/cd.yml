@@ -1,9 +1,11 @@
-name: GitHub Pages
+name: CD
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["CI"]
+    branches: [main]
+    types: 
+      - completed
   pull_request:
 
 jobs:
@@ -19,7 +21,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: "21"
 
       - name: Cache dependencies
         uses: actions/cache@v3
@@ -29,7 +31,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm ci
       - run: npm run build
 
       - name: Deploy

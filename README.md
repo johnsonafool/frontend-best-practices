@@ -1,6 +1,6 @@
-<h1 align="center">frontend-best-practices</h1>
+<h1>frontend-best-practices</h1>
 
-<div align="center">
+<div>
 
 ![ts](https://img.shields.io/badge/TypeScript%20-%23F7DF1E.svg?logo=typescript&logoColor=white&color=3178C6)
 ![react](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
@@ -14,7 +14,7 @@
 
 </div>
 
-<div align="center">
+<div>
 
 A boilerplate [Vite + React + TS](https://vitejs.dev/)
 with [Typescript](https://www.typescriptlang.org/), [Redux Toolkit](https://redux-toolkit.js.org/),
