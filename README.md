@@ -12,8 +12,6 @@
 ![cypress](https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white)
 ![license](https://img.shields.io/github/license/rbiedrawa/kafka-monitoring)
 
-</div>
-
 <div>
 
 A boilerplate [Vite + React + TS](https://vitejs.dev/)

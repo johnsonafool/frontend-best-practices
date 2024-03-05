@@ -152,10 +152,13 @@ devDependencies:
     specifier: ^17.0.20
     version: 17.0.76
   '@types/react-dom':
-    specifier: ^17.0.9
+    specifier: ^17.0.25
     version: 17.0.25
+  '@types/react-redux':
+    specifier: ^7.1.33
+    version: 7.1.33
   '@types/redux-logger':
-    specifier: ^3.0.9
+    specifier: ^3.0.13
     version: 3.0.13
   '@typescript-eslint/eslint-plugin':
     specifier: 5.14.0
@@ -6860,7 +6863,6 @@ packages:
     dependencies:
       '@types/react': 17.0.76
       hoist-non-react-statics: 3.3.2
-    dev: false
 
   /@types/html-minifier-terser@5.1.2:
     resolution: {integrity: sha512-h4lTMgMJctJybDp8CQrxTUiiYmedihHWkjnF/8Pxseu2S6Nlfcy8kwboQ8yejh456rP2yWoEVm1sS/FVsfM48w==}
@@ -7046,7 +7048,6 @@ packages:
       '@types/react': 17.0.76
       hoist-non-react-statics: 3.3.2
       redux: 4.2.1
-    dev: false
 
   /@types/react-transition-group@4.4.10:
     resolution: {integrity: sha512-hT/+s0VQs2ojCX823m60m5f0sL5idt9SO6Tj6Dg+rdphGPIeJbJ6CxvBYkgkGKrYeDjvIpKTR38UzmtHJOGW3Q==}
@@ -13138,7 +13139,6 @@ packages:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
     dependencies:
       react-is: 16.13.1
-    dev: false
 
   /hook-std@2.0.0:
     resolution: {integrity: sha512-zZ6T5WcuBMIUVh49iPQS9t977t7C0l7OtHrpeMb5uk48JdflRX0NSFvCekfYNmGQETnLq9W/isMyHl69kxGi8g==}
@@ -16663,7 +16663,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       bl: 4.1.0
-      chalk: 4.1.1
+      chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-spinners: 2.9.2
       is-interactive: 1.0.0
@@ -18960,7 +18960,6 @@ packages:
     resolution: {integrity: sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==}
     dependencies:
       '@babel/runtime': 7.24.0
-    dev: false
 
   /redux@5.0.1:
     resolution: {integrity: sha512-M9/ELqF6fy8FwmkpnF0S3YKOqMyoWJ4+CS5Efg2ct3oY9daQvd/Pc71FpGZsVsbl3Cpb+IIcjBDUnnyBdQbq4w==}
